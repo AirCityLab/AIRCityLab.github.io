@@ -41,9 +41,9 @@ layout: default
 
                     <header>
                         <h2>
-                        <strong>Seeking PhD student</strong></h2>
+                        <strong>Seeking MS/PhD student</strong></h2>
                     </header>
-                    <p>We are seeking outstanding students for PhD Graduate Assistantship positions in Urban Science and Urban Resilience.The students will work on several projects on disaster science and urban science with a group of collaborators from urban planning, civil engineering, computer science, geography, and landscape architecture.</p>
+                    <p>We are seeking outstanding students for MS/PhD Graduate Assistantship positions in Urban Science and Urban Resilience.The students will work on several projects on disaster science and urban science with a group of collaborators from urban planning, civil engineering, computer science, geography, and landscape architecture.</p>
 
                     Applicants are expected to have experience in urban analytics on one or more of the following methodological fronts: machine learning, natural language processing, computer vision, urban simulation, or spatial modelling. </p>
 
@@ -52,7 +52,7 @@ layout: default
                     Please contact Dr. Wei Zhai at wei.zhai@utsa.edu for more information.</p>
                     <footer>
                         <ul class="buttons">
-                            <li><a href="https://www.arch.tamu.edu/academics/graduate-programs/ph-d-in-urban-regional-sciences/" class="button">Find Out More</a></li>
+                            <li><a href="https://ceid.utsa.edu/architecture-planning/graduate/" class="button">Find Out More</a></li>
                         </ul>
                     </footer>
 
@@ -297,7 +297,7 @@ The program is based on the Wasserstein distance algorithm of machine learning, 
     async function firstAsync() {
         const octokit = new Octokit();
         const response = await octokit.request('GET /repos/{owner}/{repo}/issues', {
-              owner: 'UrbanDS',
+              owner: 'AirCityLab',
               repo: 'aircitylab.github.io'
             });
         if (response.status == 200){
